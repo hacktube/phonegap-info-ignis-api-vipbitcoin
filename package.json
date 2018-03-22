@@ -1,0 +1,29 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "displayName": "helloworld",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-badge": "^0.8.7",
+    "cordova-plugin-device": "^2.0.1",
+    "cordova-plugin-dialogs": "^2.0.1",
+    "cordova-plugin-local-notification": "^0.9.0-beta.2",
+    "cordova-plugin-local-notifications": "^1.0.0",
+    "cordova-plugin-network-information": "^2.0.1",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-local-notification": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
